@@ -1,0 +1,25 @@
+{
+    "name": "parallaxsolutions/yii2-brutils",
+    "description": "Utilitários Brasileiro",
+    "keywords": [
+        "yii2",
+        "utils",
+        "brazil"
+    ],
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Welsiton Ferreira",
+            "email": "welsiton@parallaxsolutions.com.br"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "yiibr/yii2-br-validator": "1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "parallaxsolutions\\brutils\\": ""
+        }
+    }
+}
