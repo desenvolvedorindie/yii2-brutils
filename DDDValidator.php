@@ -42,7 +42,7 @@ class DDDValidator extends Validator {
         }
 
         ValidationAsset::register($view);
-        return 'parallaxsolutions.validation.ddd(value, messages, ' . Json::encode($options) . ');';
+        return 'parallaxsolutions.brutilsvalidators.ddd(value, messages, ' . Json::encode($options) . ');';
     }
 
 }

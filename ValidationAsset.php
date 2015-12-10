@@ -8,7 +8,7 @@ class ValidationAsset extends AssetBundle {
 
     public $sourcePath = '@parallaxsolutions/brutils/assets';
     public $js = [
-        'parallaxsolutions.validators.js',
+        'parallaxsolutions.brutilsvalidators.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
