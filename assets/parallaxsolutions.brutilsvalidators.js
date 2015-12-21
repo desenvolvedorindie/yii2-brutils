@@ -1,6 +1,6 @@
-var parallaxsolutions = (typeof parallaxsolutions == "undefined" || !parallaxsolutions) ? {} : parallaxsolutions;
+var wfcreations = (typeof wfcreations == "undefined" || !wfcreations) ? {} : wfcreations;
 
-parallaxsolutions.brutilsvalidators = (function ($) {
+wfcreations.brutilsvalidators = (function ($) {
     var pub = {
         isEmpty: function (value) {
             return value === null || value === undefined || value == [] || value === '';

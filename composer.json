@@ -1,5 +1,5 @@
 {
-    "name": "parallaxsolutions/yii2-brutils",
+    "name": "wfcreations/yii2-brutils",
     "description": "Utilitários Brasileiro",
     "keywords": [
         "yii2",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "parallaxsolutions\\brutils\\": ""
+            "wfcreations\\brutils\\": ""
         }
     }
 }

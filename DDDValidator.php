@@ -1,6 +1,6 @@
 <?php
 
-namespace parallaxsolutions\brutils;
+namespace wfcreations\brutils;
 
 use Yii;
 use yii\validators\Validator;
@@ -42,7 +42,7 @@ class DDDValidator extends Validator {
         }
 
         ValidationAsset::register($view);
-        return 'parallaxsolutions.brutilsvalidators.ddd(value, messages, ' . Json::encode($options) . ');';
+        return 'wfcreations.brutilsvalidators.ddd(value, messages, ' . Json::encode($options) . ');';
     }
 
 }

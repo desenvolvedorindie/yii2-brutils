@@ -1,14 +1,14 @@
 <?php
 
-namespace parallaxsolutions\brutils;
+namespace wfcreations\brutils;
 
 use yii\web\AssetBundle;
 
 class ValidationAsset extends AssetBundle {
 
-    public $sourcePath = '@parallaxsolutions/brutils/assets';
+    public $sourcePath = '@wfcreations/brutils/assets';
     public $js = [
-        'parallaxsolutions.brutilsvalidators.js',
+        'wfcreations.brutilsvalidators.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',

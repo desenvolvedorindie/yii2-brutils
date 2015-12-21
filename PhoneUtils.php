@@ -1,6 +1,6 @@
 <?php
 
-namespace parallaxsolutions\brutils;
+namespace wfcreations\brutils;
 
 class PhoneUtils {
 
